@@ -1,4 +1,6 @@
 # projeto_deteccao_pessoas
+Alunas: 
+Denize Vitoria Andrade Braga - 570525 | Iane Danigila do Nascimento Cruz - 566727
 
 # Sistema Inteligente de Monitoramento e Detecção de Pessoas (IA)
 
