@@ -26,10 +26,14 @@ Ao final do treinamento, o modelo ajustado é utilizado automaticamente pelo scr
 Para executar a inferência, utilize:
 python inference/test_model.py
 
-## Exemplos de Resultados
-O modelo foi capaz de realizar a segmentação de instâncias com sucesso, ignorando objetos irrelevantes no cenário e focando exclusivamente na detecção de pessoas.
+## Exemplo de Resultados
+O modelo demonstrou capacidade de segmentação de pessoas em diversos cenários. Mesmo em imagens com múltiplas pessoas, iluminação variável e presença de objetos irrelevantes, o modelo foi capaz de destacar corretamente cada indivíduo.
+
+As imagens geradas pelo modelo apresentam máscaras de segmentação claras, permitindo uma visualização precisa da área ocupada por cada pessoa. Essa funcionalidade é especialmente útil para análises de fluxo de pessoas e ocupação de espaços.
+
+Um exemplo de resultado pode ser visualizado na imagem abaixo. O sucesso do modelo evidencia a eficácia do fine-tuning realizado e a qualidade do dataset rotulado manualmente.
 <p align="center">
-  <img src="Datas/Annotations/Captura-de-tela-2026-01-19-110015_png.rf.a5a4fe72d2a077785ce625d48b7fa0e4.jpg" width="600"/>
+  <img src="Results/Captura de tela 2026-01-20 142646.png" width="600"/>
 </p>
 
 ## Discussão sobre a Aplicação em Segurança da Informação
